@@ -118,17 +118,3 @@ final$Age[which(final$Age == 0)] <- NA
 final$Name[which(final$Name== "" | final$Name ==" ")] <- NA
 
 write.csv(final, "scrape_results.csv", row.names = FALSE)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
